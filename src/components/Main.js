@@ -1,18 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import { Card } from './components/Card';
-import { CardModal } from './components/CardModal';
+import React from 'react';
+import { MDBRow, MDBCardGroup } from 'mdbreact';
 
-import { MDBContainer, MDBRow, MDBCardGroup } from "mdbreact";
+import { Card } from './Card';
 
-function App() {
-  return (
-    <MDBContainer fluid>
-      <div className="App">
-        <header className="App-header">
-        <h1>Rise Charity Directory</h1>
-        </header>
-      </div>
+export const Main = () => {
+   return (
       <MDBRow className="Charity-row">
         <MDBCardGroup deck>
           <Card />
@@ -37,8 +29,5 @@ function App() {
           <Card />
       </MDBCardGroup>
       </MDBRow>
-    </MDBContainer>
-  );
+   )
 }
-
-export default App;
