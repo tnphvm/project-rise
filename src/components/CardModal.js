@@ -19,7 +19,8 @@ toggle = nr => (card) => {
 render() {
   return (
     <MDBContainer>
-      <MDBBtn color="info" onClick={this.toggle(8)}>Right</MDBBtn>
+      {/* <MDBBtn color="info" onClick={this.toggle(8)}>Right</MDBBtn> */}
+      <Card onClick={this.toggle(8)}/>
       <MDBModal isOpen={this.state.modal8} toggle={this.toggle(8)} fullHeight position="right">
         <MDBModalHeader toggle={this.toggle(8)}>MDBModal title</MDBModalHeader>
         <MDBModalBody>
