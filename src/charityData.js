@@ -53,14 +53,14 @@ export const charityData = [
         name: 'Inner City Youth Orchestra of Los Angeles',
         category: 'Arts',
         website: 'https://icyola.org/',
-        donation: 'https://www.paypal.com/donate?token=A3VXBz1-YW_pUVwVl7PZR11T5jJB-kwf_-GeZTQZ2rsBYX8SSJWMT8fgei3K7mGesC_nlGZ-Ai6eEIK-	
+        donation: 'https://www.paypal.com/donate?token=A3VXBz1-YW_pUVwVl7PZR11T5jJB-kwf_-GeZTQZ2rsBYX8SSJWMT8fgei3K7mGesC_nlGZ-Ai6eEIK-'
     },
     {																						
         id: 9,
         name: 'National Black Theatre',
         category: 'Arts',
         website: 'https://www.nationalblacktheatre.org/',
-        donation: 'https://web.ovationtix.com/trs/store/34282/alldonations/21818	'
+        donation: 'https://web.ovationtix.com/trs/store/34282/alldonations/21818'
     },
     { 																			
         id: 10,
