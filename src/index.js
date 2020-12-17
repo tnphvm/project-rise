@@ -10,9 +10,7 @@ import { MDBContainer } from "mdbreact";
 
 ReactDOM.render(
   <React.StrictMode>
-  <MDBContainer size="xl">
     <App />
-  </MDBContainer>
   </React.StrictMode>,
   document.getElementById('root')
 );
