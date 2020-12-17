@@ -25,9 +25,36 @@ export class Main extends Component {
           <MainContainer>
             <Sidebar/>
             <MDBContainer fluid className="px-5 py-3">
+<<<<<<< HEAD
             <MDBRow style={{ justifyContent: "center" }}>
                { cardList }
             </MDBRow>
+=======
+              <MDBRow className="Charity-row">
+                <MDBCardGroup deck>
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+                </MDBCardGroup>
+              </MDBRow>
+              <MDBRow  className="Charity-row">
+                <MDBCardGroup deck>
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+                </MDBCardGroup>
+              </MDBRow>
+              <MDBRow  className="Charity-row">
+                <MDBCardGroup deck>
+                  <Card />
+                  <Card />
+                  <Card />
+                  <Card />
+              </MDBCardGroup>
+              </MDBRow>
+>>>>>>> 8b28ae18b86346a4087342e455b6dda0d4346a14
             </MDBContainer>
           </MainContainer>
           </>
