@@ -81,35 +81,36 @@ export const charityData = [
     },
     { 																			
         id: 10,
-        name: 'Cornerstone Douglas',
-        category: 'Childcare',
-        website: 'https://www.cornerstonedoulatrainings.com/',
-        donation: 'https://www.cornerstonedoulatrainings.com/sponsor-a-doula',
-        image: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/121632413_3811611072236500_345145113889930076_o.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=Y8GgVpo2J6AAX_wN9ga&_nc_ht=scontent-lax3-2.xx&oh=05a6f2e0f2413d2f33916c298b175bfa&oe=6000D445'
+        name: 'Black Girl Ventures',
+        category: 'Entrepreneurship',
+        website: 'https://www.blackgirlventures.org/',
+        donation: 'https://www.blackgirlventures.org/donate',
+        image: 'https://static.wixstatic.com/media/be749c_98a9eb94e4dd4f47b3ef0196ef184f20~mv2.png/v1/fill/w_740,h_371,al_c,q_90,usm_0.66_1.00_0.01/be749c_98a9eb94e4dd4f47b3ef0196ef184f20~mv2.webp',
+        desc: 'Founded in 2016 by Serial Entrepreneur and Computer Scientist Shelly Bell, Black Girl Ventures addresses the unique challenges Black and Brown women face in accessing social and financial capital to grow their businesses. The BGV Style competition is the largest pitch competition globally for Black women founders. It uniquely combines the premise of Shark Tank and Kickstarter by activating community participation in donating to support women-owned businesses directly. We have funded 76 women of color, held over 25 BGV Pitch Programs across 8 cities and served over 170 participants. \n \n Our mission is to provide Black/Brown woman-identifying founders with access to community, capital, and capacity building in order to meet business milestones that lead to economic advancement through entrepreneurship.'
     },
     {
         id: 11,
-        name: 'Moms of Black Boys United',
-        category: 'Childcare',
-        website: 'https://www.mobbunited.org/',
-        donation: 'https://www.mobbunited.org/donations/donate.asp?id=15657',
-        image: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/122763731_10215694533271251_5210861559526883756_o.jpg?_nc_cat=104&ccb=2&_nc_sid=825194&_nc_ohc=nEh6z5LA1coAX_TobRX&_nc_ht=scontent-lax3-1.xx&oh=303f379cbe8d0936920349e155bdf9fa&oe=5FFF7CD9'
+        name: 'NAACP Legal Defense Fund',
+        category: 'Social Justice',
+        website: 'https://www.naacpldf.org/',
+        donation: 'https://act.naacpldf.org/p/salsa/donation/common/public/?donate_page_KEY=15780&_ga=2.13438071.1706516554.1608229767-1743861952.1608229767',
+        image: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/26165985_1775608312471524_1755135645471065684_n.jpg?_nc_cat=100&ccb=2&_nc_sid=dd9801&_nc_ohc=rdmS2Cx5vzAAX9Lfeck&_nc_ht=scontent-lax3-1.xx&oh=5809e46c808fbf1f9fa4fb709d321dc3&oe=60011796'
     },
     {
         id: 12,
-        name: 'Fertility for Colored Girls',
-        category: 'Childcare',
-        website: 'https://www.fertilityforcoloredgirls.org/',
-        donation: 'https://www.fertilityforcoloredgirls.org/donate',
-        image: 'https://static.wixstatic.com/media/cba136_ffd5d058a83958cbb29d1a416e57c74e.jpg/v1/fill/w_778,h_642,al_c,q_85,usm_0.66_1.00_0.01/cba136_ffd5d058a83958cbb29d1a416e57c74e.webp'
+        name: 'The Innocence Project',
+        category: 'Social Justice',
+        website: 'https://innocenceproject.org/',
+        donation: 'https://innocenceproject.org/donate/?f_src=FY21_web_x_gen_nmat_campWays000to000Give_onetime',
+        image: ''
     },
     {
         id: 13,
-        name: 'National Black Disability Coalition',
-        category: 'Disability',
-        website: 'https://www.blackdisability.org/',
-        donation: 'https://www.paypal.com/donate?token=BBo5uPLv99zIVAtyUbyWQD4fX5Z3ESC2uf6RxfKfvSUfC3E7GvvmjmCV2e-usCQLG8tXzcDLpiWYLaRb',
-        image: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/124946454_1740168319470022_1021347787908102257_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=GZPBPf2e4EIAX8qLQpO&_nc_ht=scontent-lax3-1.xx&oh=35f1431b0ec16ab62039d698310d0617&oe=5FFF9357'
+        name: 'Thurgood Marshall College Fund',
+        category: 'Education',
+        website: 'https://www.tmcf.org/',
+        donation: 'https://www.tmcf.org/online-gift/',
+        image: ''
     },
     {
         id: 14,
@@ -145,19 +146,19 @@ export const charityData = [
     },
     {
         id: 18,
-        name: 'We Need Diverse Books',
-        category: 'Education',
-        website: 'https://diversebooks.org/',
-        donation: 'https://diversebooks.org/donate-to-wndb/',
-        image: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/131341971_4823015987773774_2027386466899235833_o.jpg?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_ohc=_EIm-v7IEdkAX9QYuar&_nc_ht=scontent-lax3-2.xx&oh=d62644066468cca3df873b7c8315395d&oe=6001553F'
+        name: '100 Black Men of America',
+        category: 'Mentorship',
+        website: 'https://100blackmen.org/',
+        donation: 'https://100blackmen.org/donate/',
+        image: ''
     },
     {
         id: 19,
-        name: 'Land Loss Prevention Project',
-        category: 'Environmental',
-        website: 'https://www.landloss.org/index.html',
-        donation: 'https://www.landloss.org/donate.html',
-        image: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/131889100_10159077512122299_2566493472605101527_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=nPUDD6b5rcgAX-s8siP&_nc_ht=scontent-lax3-1.xx&oh=50c98114273ffbac4ff5c5f8ef0509d8&oe=6002A9FB'
+        name: 'Equal Justice Initiative',
+        category: 'Social Justice',
+        website: 'https://eji.org/',
+        donation: 'https://support.eji.org/give/153413/#!/donation/checkout',
+        image: ''
     },
     {
         id: 20,
