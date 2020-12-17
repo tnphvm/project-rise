@@ -7,10 +7,6 @@ import { Card, CardModal } from './';
 import { charityData } from '../charityData';
 
 export class Main extends Component {
-   // info = () => {
-   //    charityData.forEach(charity => console.log(charity));
-   // };
-
    render() {
       let cardList = [];
       charityData.forEach(charity => {
