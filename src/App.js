@@ -5,9 +5,7 @@ import { Main } from './components'
 
 function App() {
   return (
-    <MDBContainer fluid>
-      <Main />
-    </MDBContainer>
+    <Main />
   );
 }
 

@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 export const Button = styled.button`
     background-color: rgba(118, 120, 237, .10);
     border-radius: 100px;
-    padding: 10px;
+    padding: 5px 8px;
     border: none;
 
     &:hover{
