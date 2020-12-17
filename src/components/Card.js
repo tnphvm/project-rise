@@ -27,7 +27,7 @@ export class Card extends Component {
             <MDBMask className="flex-center" overlay="white-light" />
           </MDBView>
           <MDBCardBody style={{ padding: "1em" }}>
-            <MDBCardTitle className="text-center" style={{ margin: "0px", fontSize: "1vw" }}>{this.props.charityInfo.name}</MDBCardTitle>
+            <MDBCardTitle className="text-center" style={{ margin: "0px", fontSize: "1em" }}>{this.props.charityInfo.name}</MDBCardTitle>
             <CardModal openModal={this.state.openModal} charityInfo={this.props.charityInfo}/>
           </MDBCardBody>
       </MDBCard>
