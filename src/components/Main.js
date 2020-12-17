@@ -14,7 +14,7 @@ export class Main extends Component {
             </div>
             <MDBRow className="Charity-row">
               <MDBCardGroup deck>
-                <CardModal />
+                <Card />
                 <Card />
                 <Card />
                 <Card />

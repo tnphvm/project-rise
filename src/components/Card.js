@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBView, MDBMask } from 'mdbreact';
 
+import { CardModal } from './';
+
 // export const Card = () => {
 export class Card extends Component {
+  state = {
+    openModal: false,
+    charityName: "Charity Name"
+  }
+
+  toggleModal = () => {
+    // console.log("card print : " + this.state.openModal)
+    this.setState({
+      openModal: !this.state.openModal
+    });
+  }
+
   render() {
     return (
-      <MDBCard style={{ width: "22rem" }}>
+      <MDBCard style={{ width: "22rem" }} onClick={this.toggleModal}>
           <MDBView hover>
             <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" />
             <MDBMask className="flex-center" overlay="white-light" />
           </MDBView>
           <MDBCardBody style={{ padding: "1em" }}>
-            <MDBCardTitle className="text-center" tag="h5" style={{ margin: "0px" }}>Charity Name</MDBCardTitle>
+            <MDBCardTitle className="text-center" tag="h5" style={{ margin: "0px" }}>{this.state.charityName}</MDBCardTitle>
+            <CardModal openModal={this.state.openModal} charity={this.state}/>
           </MDBCardBody>
       </MDBCard>
     )
