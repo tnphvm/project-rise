@@ -1,9 +1,7 @@
 import styled from 'styled-components/macro';
 
-export const Container = styled.nav`
-    width: 300px;
-    padding: 12px;
-    padding-top: 2rem;
+export const Container = styled.div`
+    width: 30rem;
     background-color: #f9f9f9;
     border-right: 1px solid rgba(3,3,3,.12);
 `;
@@ -15,6 +13,12 @@ export const Inner = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+`;
+
+export const TopContainer = styled.div`
+    width: 100%;
+    margin-top: 2rem;
+    padding: 12px;
 `;
 
 export const Title = styled.h3`
@@ -62,11 +66,14 @@ export const ResetButton = styled.button`
     border: none;
     outline: none;
     background-color: transparent;
-    margin-left: 5px;
     font-size: 14px;
     font-weight: 700;
-    color: #333;
+    color: #4361ee;
     opacity: .8;
+
+    &:focus{
+        outline: none;
+    }
 
     &:hover{
         opacity: .6;
@@ -91,10 +98,14 @@ export const TagContainer = styled.div`
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
     & > button {
         margin-top: 12px;
         margin-right: 12px;
     }
-   
+`;
+
+export const IframeContainer = styled.div`
+    margin-top: 2rem;
+    width: 100%;
+    height: 60rem;
 `;
