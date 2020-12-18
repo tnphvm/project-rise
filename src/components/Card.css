@@ -4,16 +4,33 @@ img {
 }
 
 .card-thumbnail {
-   height: 120px;
+   height: 10rem;
+   min-height: 8rem;
    min-width: 120px;
    max-width: auto;
    cursor: pointer;
 }
 
 .charity-card {
-   width: 15rem;
+   width: 17rem;
+   height: 10rem;
+   min-height: 5rem;
    margin: 1rem; 
    cursor: pointer;
+   border: 1px solid rgba(3,3,3,.12) !important;
+   border-radius: 0px !important;
+   box-shadow: none !important;
+   padding: 5px;
 }
 
-/* style={{ width: "15rem", margin: "1rem", cursor: "pointer" }} */
+.category {
+   background-color: rgba(3,3,3,.5);
+   color: white;
+   border-radius: 10px;
+   margin: 1em;
+   padding: 2px;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   font-size: 1em;
+}

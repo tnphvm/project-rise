@@ -1,0 +1,17 @@
+.modal-title {
+   font-weight: bold !important;
+   color: white;
+   background-color: #003049;
+   border: 0px !important;
+}
+
+.button-container {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.modal-btn {
+   background-color: #EDB724 !important;
+   color: #003049 !important;
+   font-weight: bold !important;
+}

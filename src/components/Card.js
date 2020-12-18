@@ -20,16 +20,15 @@ export class Card extends Component {
   render() {
     return (
       <MDBCard className="charity-card" onClick={this.toggleModal}>
-          <MDBView hover>
+          <MDBView>
             <div className="card-thumbnail">
               <MDBCardImage className="img-fluid" src={this.props.charityInfo.image} />
             </div>
-            <MDBMask style={{ cursor: "pointer" }} className="flex-center" overlay="white-light" />
-          </MDBView>
-          <MDBCardBody style={{ padding: "1em" }}>
-            <MDBCardTitle className="text-center" style={{ margin: "0px", fontSize: "1em" }}>{this.props.charityInfo.name}</MDBCardTitle>
+            <MDBMask style={{ cursor: "pointer" }} className="flex-center" overlay="black-light">
+              <p className="white-text text-center" style={{ fontWeight: "bold", padding: "10px" }}>{this.props.charityInfo.name}</p>
+            </MDBMask>
             <CardModal openModal={this.state.openModal} charityInfo={this.props.charityInfo}/>
-          </MDBCardBody>
+          </MDBView>
       </MDBCard>
     )
   }
