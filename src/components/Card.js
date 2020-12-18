@@ -6,8 +6,11 @@ import { CardModal } from './';
 
 // export const Card = () => {
 export class Card extends Component {
-  state = {
-    openModal: false
+  constructor(){
+    super();
+    this.state = {
+      openModal: false
+    }
   }
 
   toggleModal = () => {
@@ -19,7 +22,7 @@ export class Card extends Component {
 
   render() {
     return (
-      <MDBCard className="charity-card" onClick={this.toggleModal}>
+      <MDBCard className="charity-card" onClick={() => this.setState({openModal: !this.state.openModal})}>
           <MDBView>
             <div className="card-thumbnail">
               <MDBCardImage className="img-fluid" src={this.props.charityInfo.image} />
